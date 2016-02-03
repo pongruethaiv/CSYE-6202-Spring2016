@@ -4,6 +4,12 @@
 	{
 		static void Main(string[] args)
 		{
-		}
+            FizzBuzz fizzbuzz = new FizzBuzz();
+            fizzbuzz.RunFizzBuzz(0);
+            fizzbuzz.RunFizzBuzz(1);
+            fizzbuzz.RunFizzBuzz(3);
+            fizzbuzz.RunFizzBuzz(5);
+            fizzbuzz.RunFizzBuzz(15);
+        }
 	}
 }
