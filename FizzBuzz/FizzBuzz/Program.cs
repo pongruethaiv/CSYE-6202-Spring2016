@@ -10,6 +10,8 @@
             fizzbuzz.RunFizzBuzz(3);
             fizzbuzz.RunFizzBuzz(5);
             fizzbuzz.RunFizzBuzz(15);
+            fizzbuzz.RunFizzBuzz(9);
+            fizzbuzz.RunFizzBuzz(25);
         }
 	}
 }
