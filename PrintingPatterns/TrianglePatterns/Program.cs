@@ -62,7 +62,7 @@ namespace TrianglePatterns
             Console.WriteLine("Pattern D");
             for (int i=1; i<=10; i++)
             {
-                for (int s=10; s>=i; s--)
+                for (int s=10; s>i; s--)
                 {
                     Console.Write(" ");
                 }
