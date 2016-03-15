@@ -1,0 +1,12 @@
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication\bin\Debug\PayrollApplication.exe.config
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication\bin\Debug\PayrollApplication.exe
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication\bin\Debug\PayrollApplication.pdb
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication\obj\Debug\PayrollApplication.csprojResolveAssemblyReference.cache
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication\obj\Debug\PayrollApplication.exe
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication\obj\Debug\PayrollApplication.pdb
+C:\Users\Pong\Desktop\CSYE6202\Assignment4 - Copy\PayrollApplication\PayrollApplication\bin\Debug\PayrollApplication.exe.config
+C:\Users\Pong\Desktop\CSYE6202\Assignment4 - Copy\PayrollApplication\PayrollApplication\obj\Debug\PayrollApplication.exe
+C:\Users\Pong\Desktop\CSYE6202\Assignment4 - Copy\PayrollApplication\PayrollApplication\obj\Debug\PayrollApplication.pdb
+C:\Users\Pong\Desktop\CSYE6202\Assignment4 - Copy\PayrollApplication\PayrollApplication\bin\Debug\PayrollApplication.exe
+C:\Users\Pong\Desktop\CSYE6202\Assignment4 - Copy\PayrollApplication\PayrollApplication\bin\Debug\PayrollApplication.pdb
+C:\Users\Pong\Desktop\CSYE6202\Assignment4 - Copy\PayrollApplication\PayrollApplication\obj\Debug\PayrollApplication.csprojResolveAssemblyReference.cache
