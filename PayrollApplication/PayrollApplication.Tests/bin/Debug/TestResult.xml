@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\bin\Debug\PayrollApplication.Tests.dll" total="37" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-03-15" time="17:49:53">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8670" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="PONG-WINDOWS10" user="Pong" user-domain="PONG-WINDOWS10" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\bin\Debug\PayrollApplication.Tests.dll" executed="True" result="Success" success="True" time="0.657" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="PayrollApplication" executed="True" result="Success" success="True" time="0.632" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.627" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="WhenRunningPayrollApplication" executed="True" result="Success" success="True" time="0.615" asserts="0">
+                <results>
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_CalculateEarning_CommissionEmployeeIsSelected_ResultShouldBeGrossSaleTimesCommissionRate" executed="True" result="Success" success="True" time="0.074" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_CalculateEarning_HourlyEmployeeIsSelected_HourOfWorkExceed40_ResultShouldBeHourlyWageTimesHoursOfWorkPlusOT" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_CalculateEarning_HourlyEmployeeIsSelected_HourOfWorkLessThanOrEqual40_ResultShouldBeHourlyWageTimesHoursOfWork" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_CalculateEarning_SalariedEmployeeIsSelected_ResultShouldBeSalary" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_CalculateEarning_SalaryBasedCommissionEmployeeIsSelected_ResultShouldBeGrossSaleTimesCommissionRatePlusSalary" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_EmployeeTypeMapper_1IsEntered_ResultShouldBeSalariedEmployee" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_EmployeeTypeMapper_2IsEntered_ResultShouldBeHourlyEmployee" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_EmployeeTypeMapper_3IsEntered_ResultShouldBeCommissionEmployee" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_EmployeeTypeMapper_4IsEntered_ResultShouldBeSalaryBasedCommissionEmployee" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_EmployeeTypeMapper_InvalidStringIsEntered_ResultShouldBeNone" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidAmount_EmptyStringEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidAmount_InvalidAmountEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.012" asserts="4" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidAmount_NegativeNumberEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidAmount_NullValueEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidAmount_ValidAmountEntered_ResultShouldBeTrue" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidAmount_WhiteSpaceEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidCommission_EmptyStringEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidCommission_GreaterThanOneCommissionRateEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidCommission_InvalidCommissionRateEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidCommission_NegativeValueEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidCommission_NullValueEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidCommission_ValidCommissionEntered_ResultShouldBeTrue" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidCommission_WhiteSpaceEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidEmployeeType_EmptyStringEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidEmployeeType_InvalidEmployeeTypeEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidEmployeeType_NullValueEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidEmployeeType_WhiteSpaceEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidName_EmptyStringEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidName_InValidNameEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.166" asserts="4" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidName_NullEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidName_ValidNameEntered_ResultShouldBeTrue" executed="True" result="Success" success="True" time="0.004" asserts="4" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidName_WhiteSpaceEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidSsn_EmptyStringEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidSsn_InvalidSsnEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.011" asserts="2" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidSsn_NullValueEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidSsn_ValidSsnEntered_ResultShouldBeTrue" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                  <test-case name="PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidSsn_WhiteSpaceEntered_ResultShouldBeFalse" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -8,3 +8,13 @@ C:\Users\Pong\Desktop\CSYE6202\Assignment4 - Copy\PayrollApplication\PayrollAppl
 C:\Users\Pong\Desktop\CSYE6202\Assignment4 - Copy\PayrollApplication\PayrollApplication.Tests\obj\Debug\PayrollApplication.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Pong\Desktop\CSYE6202\Assignment4 - Copy\PayrollApplication\PayrollApplication.Tests\obj\Debug\PayrollApplication.Tests.dll
 C:\Users\Pong\Desktop\CSYE6202\Assignment4 - Copy\PayrollApplication\PayrollApplication.Tests\obj\Debug\PayrollApplication.Tests.pdb
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\bin\Debug\PayrollApplication.Tests.dll
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\bin\Debug\PayrollApplication.Tests.pdb
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\bin\Debug\PayrollApplication.exe
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\bin\Debug\PayrollApplication.pdb
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\obj\Debug\PayrollApplication.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\obj\Debug\PayrollApplication.Tests.dll
+C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\obj\Debug\PayrollApplication.Tests.pdb

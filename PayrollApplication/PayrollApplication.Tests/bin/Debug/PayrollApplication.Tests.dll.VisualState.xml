@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1038]C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\bin\Debug\PayrollApplication.Tests.dll</TopNode>
+  <SelectedNode>[0-1030]PayrollApplication.Tests.WhenRunningPayrollApplication.When_UserEnteredValidEmployeeType_WhiteSpaceEntered_ResultShouldBeFalse</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1038]C:\Users\Pong\Desktop\CSYE6202\Assignment4\PayrollApplication\PayrollApplication.Tests\bin\Debug\PayrollApplication.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1039]PayrollApplication" Expanded="true" />
+    <Node UniqueName="[0-1040]PayrollApplication.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]PayrollApplication.Tests.WhenRunningPayrollApplication" Expanded="true" />
+  </Nodes>
+</VisualState>

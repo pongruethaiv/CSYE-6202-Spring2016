@@ -140,7 +140,6 @@ namespace PayrollApplication.Tests
 
         #endregion
 
-
         #region UserEnteredValidAmount Tests
 
         [Test]
@@ -401,6 +400,7 @@ namespace PayrollApplication.Tests
 
         #region UserEnteredValidEmployeeType Tests
 
+        [Test]
         public void When_UserEnteredValidEmployeeType_ValidEmployeeTypeEntered_ResultShouldBeTrue()
         {
             // prepare
