@@ -70,7 +70,6 @@ namespace StudentRegistrationApp
             // dirty workaround to make sure that we can bind to the static mock list
             var bindingList = new BindingList<Student>(mockStudentList);
             var source = new BindingSource(bindingList, null);
-            dataGridViewStudents.DataSource = null;
             dataGridViewStudents.DataSource = source;
             AdjustColumnOrder();
         }
@@ -86,8 +85,10 @@ namespace StudentRegistrationApp
 
         public void PerformRefresh()
         {
+            var bindingList = new BindingList<Student>(mockStudentList);
+            var source = new BindingSource(bindingList, null);
             dataGridViewStudents.DataSource = null;
-            dataGridViewStudents.DataSource = mockStudentList;
+            dataGridViewStudents.DataSource = source;
             AdjustColumnOrder();
         }
 
