@@ -1,0 +1,4 @@
+C:\Users\Pong\Desktop\CSYE6202\Assignment5_WindowsForm\StudentRegistrationApp\StudentRegistration.Domain\bin\Debug\StudentRegistration.Domain.dll
+C:\Users\Pong\Desktop\CSYE6202\Assignment5_WindowsForm\StudentRegistrationApp\StudentRegistration.Domain\bin\Debug\StudentRegistration.Domain.pdb
+C:\Users\Pong\Desktop\CSYE6202\Assignment5_WindowsForm\StudentRegistrationApp\StudentRegistration.Domain\obj\Debug\StudentRegistration.Domain.dll
+C:\Users\Pong\Desktop\CSYE6202\Assignment5_WindowsForm\StudentRegistrationApp\StudentRegistration.Domain\obj\Debug\StudentRegistration.Domain.pdb
