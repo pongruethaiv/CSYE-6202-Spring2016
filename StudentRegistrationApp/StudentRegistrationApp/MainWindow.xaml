@@ -1,0 +1,17 @@
+﻿<Window x:Class="StudentRegistrationApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentRegistrationApp"
+        mc:Ignorable="d"
+        Title="Student Registration Login" Height="265.016" Width="344.968" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="label" Content="Username&#xD;&#xA;" HorizontalAlignment="Left" Margin="58,38,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.691,0.513"/>
+        <Label x:Name="label_Copy" Content="Password&#xD;&#xA;&#xA;" HorizontalAlignment="Left" Margin="58,97,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.691,0.513"/>
+        <TextBox x:Name="textBoxUsername" HorizontalAlignment="Left" Height="23" Margin="171,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="171,97,0,0" VerticalAlignment="Top" Width="120" Height="23"/>
+        <Button x:Name="buttonSignIn" Content="Sign In&#xD;&#xA;" HorizontalAlignment="Left" Margin="216,158,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-1.106,-3.649" Click="buttonSignIn_Click"/>
+
+    </Grid>
+</Window>
