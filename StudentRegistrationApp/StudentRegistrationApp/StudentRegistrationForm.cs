@@ -68,10 +68,7 @@ namespace StudentRegistrationApp
             }
 
             // dirty workaround to make sure that we can bind to the static mock list
-            var bindingList = new BindingList<Student>(mockStudentList);
-            var source = new BindingSource(bindingList, null);
-            dataGridViewStudents.DataSource = source;
-            AdjustColumnOrder();
+            PerformRefresh();
         }
 
         private void AdjustColumnOrder()
@@ -94,8 +91,18 @@ namespace StudentRegistrationApp
 
         private void LoadDefaults()
         {
-            radioButtonFullTime.Select();
-            comboBoxDepartment.SelectedIndex = 0;
+            //radioButtonFullTime.Select();
+            //comboBoxDepartment.SelectedIndex = 0;
+            if (dataGridViewStudents.RowCount == 0)
+            {
+                radioButtonFullTime.Checked = false;
+                radioButtonPartTime.Checked = false;
+                comboBoxDepartment.SelectedIndex = -1;
+                textBoxID.Text = "";
+                textBoxFirst.Text = "";
+                textBoxLast.Text = "";
+            }
+            
         }
 
         #endregion
@@ -134,14 +141,15 @@ namespace StudentRegistrationApp
 
         private void buttonRemoveStudent_Click(object sender, EventArgs e)
         {
-            try
+            if (dataGridViewStudents.RowCount > 0)
             {
                 Student currentStudent = (Student)dataGridViewStudents.CurrentRow.DataBoundItem;
                 RemoveStudentForm removeForm = new RemoveStudentForm(currentStudent, mockStudentList);
                 removeForm.ShowDialog();
                 PerformRefresh();
+                LoadDefaults();
             }
-            catch (NullReferenceException)
+            else
             {
                 MessageBox.Show("Please select a student to remove", "Student Registration Warning");
             }
@@ -149,14 +157,14 @@ namespace StudentRegistrationApp
 
         private void buttonEditStudent_Click(object sender, EventArgs e)
         {
-            try
+            if (dataGridViewStudents.RowCount > 0)
             {
                 Student currentStudent = (Student)dataGridViewStudents.CurrentRow.DataBoundItem;
                 EditStudentForm editForm = new EditStudentForm(currentStudent, mockStudentList, departmentItems);
                 editForm.ShowDialog();
                 PerformRefresh();
             }
-            catch (NullReferenceException)
+            else
             {
                 MessageBox.Show("Please select a student to edit", "Student Registration Warning");
             }
