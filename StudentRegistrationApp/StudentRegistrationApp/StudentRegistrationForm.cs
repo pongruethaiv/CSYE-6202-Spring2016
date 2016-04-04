@@ -134,18 +134,32 @@ namespace StudentRegistrationApp
 
         private void buttonRemoveStudent_Click(object sender, EventArgs e)
         {
-            Student currentStudent = (Student)dataGridViewStudents.CurrentRow.DataBoundItem;
-            RemoveStudentForm removeForm = new RemoveStudentForm(currentStudent, mockStudentList);
-            removeForm.ShowDialog();
-            PerformRefresh();
+            try
+            {
+                Student currentStudent = (Student)dataGridViewStudents.CurrentRow.DataBoundItem;
+                RemoveStudentForm removeForm = new RemoveStudentForm(currentStudent, mockStudentList);
+                removeForm.ShowDialog();
+                PerformRefresh();
+            }
+            catch (NullReferenceException)
+            {
+                MessageBox.Show("Please select a student to remove", "Student Registration Warning");
+            }
         }
 
         private void buttonEditStudent_Click(object sender, EventArgs e)
         {
-            Student currentStudent = (Student)dataGridViewStudents.CurrentRow.DataBoundItem;
-            EditStudentForm editForm = new EditStudentForm(currentStudent, mockStudentList, departmentItems);
-            editForm.ShowDialog();
-            PerformRefresh();
+            try
+            {
+                Student currentStudent = (Student)dataGridViewStudents.CurrentRow.DataBoundItem;
+                EditStudentForm editForm = new EditStudentForm(currentStudent, mockStudentList, departmentItems);
+                editForm.ShowDialog();
+                PerformRefresh();
+            }
+            catch (NullReferenceException)
+            {
+                MessageBox.Show("Please select a student to edit", "Student Registration Warning");
+            }
         }
     }
 }

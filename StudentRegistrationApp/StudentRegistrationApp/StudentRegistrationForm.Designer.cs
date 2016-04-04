@@ -77,6 +77,7 @@
             this.dataGridViewStudents.GridColor = System.Drawing.SystemColors.Control;
             this.dataGridViewStudents.Location = new System.Drawing.Point(19, 229);
             this.dataGridViewStudents.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridViewStudents.MultiSelect = false;
             this.dataGridViewStudents.Name = "dataGridViewStudents";
             this.dataGridViewStudents.ReadOnly = true;
             this.dataGridViewStudents.RowTemplate.Height = 24;
