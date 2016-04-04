@@ -84,8 +84,9 @@ namespace StudentRegistrationApp
 
         public void PerformRefresh()
         {
+            var bindingList = new BindingList<Student>(mockStudentList);
             dataGridViewStudents.ItemsSource = null;
-            dataGridViewStudents.ItemsSource = mockStudentList;
+            dataGridViewStudents.ItemsSource = bindingList;
         }
 
         private void AdjustColumnOrder(object sender, EventArgs e)
