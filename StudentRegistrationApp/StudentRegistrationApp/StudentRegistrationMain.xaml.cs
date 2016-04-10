@@ -1,6 +1,7 @@
 ﻿using StudentRegistration.Domain;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Data;
 using System.Linq;
@@ -84,9 +85,9 @@ namespace StudentRegistrationApp
 
         public void PerformRefresh()
         {
-            var bindingList = new BindingList<Student>(mockStudentList);
+            ObservableCollection<Student> people = new ObservableCollection<Student>(mockStudentList);
             dataGridViewStudents.ItemsSource = null;
-            dataGridViewStudents.ItemsSource = bindingList;
+            dataGridViewStudents.ItemsSource = people;
         }
 
         private void AdjustColumnOrder(object sender, EventArgs e)
