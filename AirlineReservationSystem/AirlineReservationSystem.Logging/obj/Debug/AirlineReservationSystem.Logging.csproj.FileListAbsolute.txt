@@ -1,0 +1,10 @@
+C:\Users\Pong\Desktop\CSYE6202\Final Project_EditDB\AirlineReservationSystem\Logging\bin\Debug\Logging.dll
+C:\Users\Pong\Desktop\CSYE6202\Final Project_EditDB\AirlineReservationSystem\Logging\bin\Debug\Logging.pdb
+C:\Users\Pong\Desktop\CSYE6202\Final Project_EditDB\AirlineReservationSystem\Logging\obj\Debug\AirlineReservationSystem.Logging.csprojResolveAssemblyReference.cache
+C:\Users\Pong\Desktop\CSYE6202\Final Project_EditDB\AirlineReservationSystem\Logging\obj\Debug\Logging.dll
+C:\Users\Pong\Desktop\CSYE6202\Final Project_EditDB\AirlineReservationSystem\Logging\obj\Debug\Logging.pdb
+C:\Users\Pong\Desktop\CSYE6202\Final Project_EditDB\AirlineReservationSystem\AirlineReservationSystem.Logging\bin\Debug\Logging.dll
+C:\Users\Pong\Desktop\CSYE6202\Final Project_EditDB\AirlineReservationSystem\AirlineReservationSystem.Logging\bin\Debug\Logging.pdb
+C:\Users\Pong\Desktop\CSYE6202\Final Project_EditDB\AirlineReservationSystem\AirlineReservationSystem.Logging\obj\Debug\AirlineReservationSystem.Logging.csprojResolveAssemblyReference.cache
+C:\Users\Pong\Desktop\CSYE6202\Final Project_EditDB\AirlineReservationSystem\AirlineReservationSystem.Logging\obj\Debug\Logging.dll
+C:\Users\Pong\Desktop\CSYE6202\Final Project_EditDB\AirlineReservationSystem\AirlineReservationSystem.Logging\obj\Debug\Logging.pdb
